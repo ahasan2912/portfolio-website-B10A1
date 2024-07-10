@@ -39,7 +39,8 @@
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;  
-    cursor: pointer; 
+    cursor: pointer;
+    margin-top: 15px;
 }
 .header{
     text-align: center;
@@ -402,13 +403,13 @@ main{
     margin-left: 35px;
 }
 .footer-content ul li a{
-    font-size: 30px;
+    font-size: 35px;
 }
 .fa-facebook{
-    color: #3367d6;
+    color: #1877F2;
 }
 .fa-linkedin{
-    color: #3367d6;
+    color: #0072b1;
 }
 .fa-github{
     color: #000;
