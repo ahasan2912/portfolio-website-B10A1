@@ -9,7 +9,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
-/* Utilize code */
+/* Utilize class which are used another classes */
 .primary-btn{
     padding: 17px 24px 17px 24px;
     color: rgb(13, 19, 33);
@@ -20,19 +20,33 @@
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
-
 }
+.secondary-btn{
+    padding: 12px 20px 12px 20px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;   
+}
+.main section{
+    margin-top: 80px;
+}
+/* Utilize class which are used another classes */
 .header{
-    /* width: 1920px;
-    height: 870px; */
     text-align: center;
 }
 .navbar{
-    width: 1516px; /*My Pc sereen size 1920px... */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 38px auto;
+    margin: 38px 200px;
 }
 .navbar h1{
     color: rgb(13, 19, 33);
@@ -42,15 +56,19 @@
 }
 .banner-container{
     background-image: url(../image/Hero-bg.png);
-    height: 890px;
+    height: 867.16px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .banner-content{
-    width: 1327.34px;
+    max-width: 1133px;
     height: 774px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .banner-content h1{
     color: rgb(13, 19, 33);
@@ -60,6 +78,7 @@
     line-height: 68px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 10px;
 }
 .banner-content p{
     color: rgb(13, 19, 33);
@@ -71,8 +90,89 @@
     text-align: center;    
 }
 .banner-content button{
-    margin: 38px 0;
+    margin: 30px 0;
     border-radius: 8px;
-    background: rgb(13, 19, 33);
+    background-color: #000;
     color: rgb(255, 255, 255)
+}
+/* -------------------------- Main Section style --------------------------- */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* web-development Styling */
+.web-development{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    padding: 80px 97px 80px 97px;
+}
+.development-text{
+    text-align: center;
+    padding: 0px 47px;
+}
+.development-text h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;    
+}
+.web-development p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.development-coding{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);   
+    padding: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 100px; */
+}
+.development-coding-text h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.development-coding-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    /* text-align: left; */
+    text-align: justify;
+    text-justify: inter-word;   
+}
+.development-coding-img{
+    width: 100%;
+    text-align: right;
+}
+.development-coding-img img{
+    width: 259.56px;
+    height: 217.01px;
+}
+.help-people{
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 35px 0; 
+    border-radius: 16px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
