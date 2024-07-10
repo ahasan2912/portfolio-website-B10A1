@@ -371,7 +371,7 @@ main{
     border: none;
 }
 /*------------------------------ footer ---------------------------*/
-#footer{
+#footer-area{
     margin-top: 90px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
