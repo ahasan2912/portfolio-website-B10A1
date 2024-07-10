@@ -13,7 +13,6 @@
 /* -------------Utilize class which are used another classes -----------------*/
 .primary-btn{
     padding: 17px 24px 17px 24px;
-    color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
@@ -22,6 +21,10 @@
     border-radius: 8px;
     opacity: 0.8;
     cursor: pointer;
+}
+.primary-btn a{
+    text-decoration: none;
+    color: rgb(255,255,255);
 }
 .secondary-btn{
     padding: 12px 20px 12px 20px;
@@ -134,7 +137,8 @@ main{
 }
 .development-coding{
     border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);   
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%);   
     padding: 48px;
     display: flex;
     justify-content: space-around;
@@ -256,9 +260,6 @@ main{
     margin-top: 35px;
 }
 /* --------------------- my-next-target section -------------------- */
-.my-next-target{
-    /* border: 2px solid red; */
-}
 .next-target-item{
     display: flex;
     justify-content: space-between;
@@ -299,4 +300,116 @@ main{
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;  
+}
+/* --------------------------- need-support section -------------------- */
+
+.need-support{
+    background-image:linear-gradient(0.00deg, 
+    rgb(6, 6, 6) -19.5%,
+    rgba(14, 13, 13, 0) 100%), url(../image/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 416px;
+    border-radius: 16px;
+}
+.need-support-container{
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),
+    url(Email);
+    padding: 64px 148px;
+}
+.need-support-heading h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.need-support-heading p{
+    /* color: rgb(255, 255, 255); */
+    color: #f4f2f2;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.need-support-container form{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 30px;
+}
+.need-support-container form input[type=text]{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+.need-support-container form input[type=submit]{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 19px;
+    font-weight: 600;
+    width: 120px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+/*------------------------------ footer ---------------------------*/
+#footer{
+    margin-top: 90px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 32px 0;  
+}
+.footer-content h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.footer-content ul{
+    display: flex;
+
+}
+.footer-content ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+.footer-content ul li a{
+    font-size: 30px;
+}
+.fa-facebook{
+    color: #3367d6;
+}
+.fa-linkedin{
+    color: #3367d6;
+}
+.fa-github{
+    color: #000;
 }
